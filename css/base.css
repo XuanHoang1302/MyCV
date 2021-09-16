@@ -1,0 +1,27 @@
+:root {
+    --boder-coler:#434e52;
+    --text-color:black;
+    --tittle-color:#a8781f;
+    --underline-color:#8b1010;
+}
+.row__label {
+    background-color: white;
+}
+.row__body {
+    padding: 15px;
+}
+.header__cv {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    background-color: #ecd5d5;
+}
+.body__cv {
+    background-color:rgb(171, 185, 226);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}

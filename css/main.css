@@ -1,0 +1,138 @@
+.info__img {
+    border: 3px solid var(--boder-coler);
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    margin:auto; 
+}
+.img__padding {
+    display: flex;
+    text-align: center;
+}
+
+.info__name h2 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color:var(--tittle-color);
+    line-height: 1.5rem;
+}
+.info__name p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+.extra__list {
+    padding-right: 5px;
+}
+.extra__add {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+/* body css */
+.body__list {
+    margin-top: 30px;
+}
+.tittle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(168, 120, 31);
+    line-height: 3rem;
+
+}
+.body__underline {
+    content: "";
+    width: 130px;
+    height: 9px;
+    background-color: var(--underline-color);
+    margin-top: 7px;
+}
+h3{
+    color: rgb(168, 120, 31); 
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.note {
+    display: flex;
+}
+.hocvan__underline {
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8px
+}
+.info__address {
+    font-size: 18px;
+    color: var(--underline-color);
+    width: 10px;
+    text-align: center;
+}
+.info__special {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.info__text {
+    font-size: 1.8rem;
+    color: var(--black-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.text__has-color {
+
+}
+.text__no-color {
+
+}
+/* rest còn lại */
+.work__underline {
+    content: "";
+    width: 1px;
+    height: 140px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8px
+}
+.action__underline {
+    content: "";
+    width: 1px;
+    height: 90px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8px
+}
+.special__text {
+    margin: 20px 0;
+}
+.special__text-radius {
+    margin-top: 6px;
+    display: flex;
+}
+.radius__has-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:var(--underline-color);
+    margin: 0 10px 0 3px;
+}
+.radius__not-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 10px 0 3px;
+    background-color: white;
+}
+.end {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(192, 184, 184);
+    margin-top: 3px;
+    font-size: 2rem;
+    line-height: 0;
+}
+.end__text {
+    margin: auto;
+}
