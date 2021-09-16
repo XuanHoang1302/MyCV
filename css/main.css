@@ -136,3 +136,9 @@ h3{
 .end__text {
     margin: auto;
 }
+.btn_play {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(182, 182, 241);
+    font-size: 1.4rem;
+}

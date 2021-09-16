@@ -18,6 +18,16 @@
 </head>
 <body>
     <div class="container">
+        <audio id="audio">
+            <source id="view" src="./mp3/Người Lạ Thoáng Qua (Andy Remix) - Đinh Tùng Huy Nhạc Trẻ Remix EDM Tik Tok Hay Nhất Hiện Nay.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            function clickAudio()
+            {
+                const method = audio.paused ? 'play' : 'pause';
+                audio[method]();
+            }
+        </script>
         <div class="row">
             <div class="col-sm-0.5 row__label"></div>
 
@@ -31,7 +41,9 @@
                         <div class="col-sm-9"> 
                             <div class="headers__info">
                                 <div class="info__name">
-                                    <h2>Lê Xuân Hoàng</h2>
+                                    <h2>Lê Xuân Hoàng 
+                                        <button class="btn_play" onclick="clickAudio();">Play</button>
+                                    </h2>
                                     <p>Nhân viên phòng công nghệ thông tin</p>
                                 </div>
                                 <div class="info__extra">
